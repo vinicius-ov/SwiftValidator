@@ -680,11 +680,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -746,8 +746,8 @@
 		FB465CCC1B9884F400398388 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -776,8 +776,8 @@
 		FB465CCD1B9884F400398388 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
